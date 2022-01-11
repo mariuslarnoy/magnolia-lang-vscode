@@ -1,0 +1,26 @@
+{
+    "name": "magnolia-lang-syntax",
+    "displayName": "Magnolia Syntax Highlighting",
+    "description": "Provides basic syntax highlighting to the Magnolia programming language",
+    "publisher": "mariuslarnoy",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "magnolia",
+            "aliases": ["Magnolia", "magnolia"],
+            "extensions": [".mg"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "magnolia",
+            "scopeName": "source.magnolia",
+            "path": "./syntaxes/magnolia.tmLanguage.json"
+        }]
+    }
+}

@@ -1,0 +1,46 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Magnolia",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#line-comment"
+		},
+		{
+			"include": "#block-comment"
+		}
+
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.mg",
+				"match": "\\b(concept|implementation|signature|program|external|Cxx|JavaScript|Python|renaming|satisfaction|models|approximates|with|axiom|function|predicate|procedure|theorem|type|require|use|obs|out|upd|guard|assert|call|if|then|else|var|skip|value|package|imports)\\b"
+			}]
+		},
+		"line-comment": {
+			"patterns": [
+				{
+				"name": "comment.line.mg",
+				"match": "//.*"	
+				}
+			]
+		},
+		"block-comment": {
+            "patterns": [
+                {
+                    "name": "comment.block.documentation",
+                    "begin": "(?x) / \\* \\*",
+                    "end": "(?x) \\* /"
+                },
+                {
+                    "name": "comment.block",
+                    "begin": "(?x) / \\*",
+                    "end": "(?x) \\* /"
+                }]}
+
+	},
+	"scopeName": "source.magnolia"
+}
