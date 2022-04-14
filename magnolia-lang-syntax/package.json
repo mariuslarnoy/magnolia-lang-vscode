@@ -3,7 +3,7 @@
     "displayName": "Magnolia Syntax Highlighting",
     "description": "Provides basic syntax highlighting to the Magnolia programming language",
     "publisher": "mariuslarnoy",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.61.0"
     },

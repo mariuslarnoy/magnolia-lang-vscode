@@ -17,7 +17,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.mg",
-				"match": "\\b(concept|implementation|signature|program|external|Cxx|JavaScript|Python|renaming|satisfaction|models|approximates|with|axiom|function|predicate|procedure|theorem|type|require|use|obs|out|upd|guard|assert|call|if|then|else|var|skip|value|package|imports)\\b"
+				"match": "\\b(concept|implementation|signature|program|external|Cxx|JavaScript|Python|renaming|satisfaction|models|approximates|with|axiom|function|predicate|procedure|theorem|type|require|use|obs|out|upd|guard|assert|call|if|then|else|var|skip|value|package|imports|rewrite|generate)\\b"
 			}]
 		},
 		"line-comment": {
